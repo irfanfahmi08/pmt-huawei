@@ -20,11 +20,12 @@ Proyek ini merupakan backend sederhana yang dibangun menggunakan **Node.js**, **
 2.  Set up dependensi :
     ```npm install```
 
-## Database
+## 🗄️ Database
 1.  Set up .env file
 2.  Migrations :
     ```npx sequelize-cli db:migrate```
 3.  Seeders :
     ```npx sequelize-cli seed:generate --name demo-user```
 
-
+## ▶️ RUNNING SERVER ##
+```npm run api```
